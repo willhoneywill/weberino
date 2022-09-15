@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Weberino`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "My First Gatsby Site",
   },
-  plugins: [],
-}
+  plugins: [
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-postcss'
+  ],
+};
